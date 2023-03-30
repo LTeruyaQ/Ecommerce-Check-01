@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Cadastrar Produto</title>
+</head>
+<body>
+	<form method="post" action="/produto/create">
+		<p>
+			Descrição: <input type="text" name="descricao" id="descricao">
+		</p>
+		<p>
+			Preço: <input type="text" name="preco" id="preco">
+		</p>
+		<p>
+			ID Fornecedor: <input type="number" name="idFornecedor" id="idFornecedor">
+		</p>
+		<p>
+			ID Categoria: <input type="number" name="idCategoria" id="idCategoria">
+		</p>
+		<input type="submit" value="Salvar" />
+	</form>
+</body>
+</html>

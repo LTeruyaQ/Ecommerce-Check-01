@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Cadastrar Fornecedor</title>
+</head>
+<body>
+	<form method="post" action="/fornecedor/create">
+		<p>
+			Nome: <input type="text" name="nome" id="nome">
+		</p>
+		<p>
+			Endereço: <input type="text" name="endereco" id="endereco">
+		</p>
+		<p>
+			Telefone: <input type="text" name="telefone" id="telefone">
+		</p>
+		<input type="submit" value="Salvar" />
+	</form>
+</body>
+</html>
